@@ -1,0 +1,29 @@
+{
+  "name": "transform-assets-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A configurable plugin for applying asset transformations in Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knuton/transform-assets-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "assets"
+  ],
+  "author": "Johannes Emerich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knuton/transform-assets-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/knuton/transform-assets-webpack-plugin#readme",
+  "dependencies": {
+    "async-throttle": "^1.1.0",
+    "lodash.map": "^4.6.0",
+    "minimatch": "^3.0.4",
+    "webpack-sources": "^1.0.1"
+  }
+}
