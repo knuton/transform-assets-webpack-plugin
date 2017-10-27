@@ -62,3 +62,16 @@ Each transformation is an object with a `test` and `transform` property.
 pathname and returning a `boolean`. If the test is positive, the
 transformation will be applied to the asset's contents. `transform`
 needs to accept and return a `Promise<Buffer>`.
+
+## Acknowledgments
+
+Inspired by Gregory Brenner's
+[imagemin-webpack-plugin](https://github.com/Klathmon/imagemin-webpack-plugin).
+I simply removed most features to make it a general asset transformation
+utility.
+
+## Copyright/License
+
+(C) Johannes Emerich 2017
+
+MIT License
